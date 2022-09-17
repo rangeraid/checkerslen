@@ -15,9 +15,9 @@ if enable_autoupdate then
     if updater_loaded then
         autoupdate_loaded, Update = pcall(Updater)
         if autoupdate_loaded then
-            Update.json_url = "https://raw.githubusercontent.com/MemesClub/sletchecker/main/version.json?" .. tostring(os.clock())
+            Update.json_url = "https://raw.githubusercontent.com/rangeraid/checkerslen/main/sletchecker%20(2).lua" .. tostring(os.clock())
             Update.prefix = "[" .. string.upper(thisScript().name) .. "]: "
-            Update.url = "https://github.com/rangeraid/sletcheker"
+            Update.url = "https://raw.githubusercontent.com/rangeraid/checkerslen/main/penIs.json"
         end
     end
 end
